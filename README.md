@@ -13,4 +13,4 @@ Pequeño proyecto que permite introducir un nombre y devuelve un saludo personal
 2. Introduce tu nombre.
 3. Haz clic en "Say hi!" para ver el mensaje.
 
-# Realizado por David Solera Romero - 2º DAM 👨‍🎓
+### Realizado por David Solera Romero - 2º DAM 👨‍🎓
