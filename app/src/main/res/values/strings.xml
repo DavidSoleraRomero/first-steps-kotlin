@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Greeting Project</string>
+    <string name="hint_text">Introduce your name</string>
+    <string name="filled_button_text">Say hi!</string>
+</resources>
