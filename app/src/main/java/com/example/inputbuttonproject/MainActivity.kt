@@ -6,6 +6,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val button = findViewById<Button>(R.id.filledButton);
         button.setOnClickListener {
             val userName = findViewById<TextInputEditText>(R.id.textField).text.toString();
-
+            Snackbar.make(button, getString(R.string.hello_name, userName), 2250).show();
         }
     }
 }
